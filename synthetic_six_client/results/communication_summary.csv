@@ -1,0 +1,4 @@
+method,rounds,messages,scalars,bytes
+NSMP,4,10,20,160
+Gossip,23,230,230,1840
+ADMM,30,300,300,2400

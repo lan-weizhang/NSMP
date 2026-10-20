@@ -1,0 +1,24 @@
+{
+  "speed_shape": [
+    52116,
+    325
+  ],
+  "adjacency_shape": [
+    325,
+    325
+  ],
+  "index_start": "2017-01-01 00:00:00",
+  "index_end": "2017-06-30 23:55:00",
+  "sampling_minutes": 5,
+  "speed_nan_count": 0,
+  "speed_zero_count": 521,
+  "speed_min": 0.0,
+  "speed_max": 85.1,
+  "adjacency_nonzero_count": 2694,
+  "sensor_id_order_matches": true,
+  "pems_bay_h5_bytes": 135930936,
+  "adj_mx_bay_pkl_bytes": 1681480,
+  "pems_bay_h5_md5": "bfa47e6ee7cc2d665e9b62c0c95c0b41",
+  "adj_mx_bay_pkl_md5": "55d25daceac847312b7748c59ded6f77",
+  "validated_with": "Python 3.12, pandas 3.0.5, PyTables"
+}

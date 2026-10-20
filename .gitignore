@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.runtime/
+.venv/
+.pems_run_*/
+.test_tmp_release/
+.env
+.env.*
+!.env.example
+dataset_api_credentials.json
+.DS_Store
+Thumbs.db
+*.zh-CN.md
+

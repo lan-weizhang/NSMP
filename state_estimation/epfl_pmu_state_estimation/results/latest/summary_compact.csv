@@ -1,0 +1,4 @@
+Dataset,Method,Error metric,Hop rounds/iterations,Bytes
+EPFL,NSMP,5.94e-14,4,3296
+EPFL,ADMM,1.03e-04,1000,1248192
+EPFL,Gossip,8.03e-01,3000,4608192

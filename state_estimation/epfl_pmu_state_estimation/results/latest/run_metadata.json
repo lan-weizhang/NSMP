@@ -1,0 +1,14 @@
+{
+  "mode": "epfl_real_data",
+  "samples": 4,
+  "stride": 10000,
+  "admm_rounds": 1000,
+  "admm_rho": 0.0,
+  "gossip_rounds": 3000,
+  "gossip_learning_factor": 0.4,
+  "seed": 7,
+  "objective_reporting": "shifted quadratic gap 0.5*(x-x_centralized)'H(x-x_centralized); centralized reference is zero to avoid constant-term cancellation",
+  "network_config": "configs/epfl_wayback_2014_08_04_19h/epfl_network.json",
+  "column_map": "configs/epfl_wayback_2014_08_04_19h/epfl_columns.json",
+  "ybus": "configs/epfl_wayback_2014_08_04_19h/epfl_ybus.npz"
+}

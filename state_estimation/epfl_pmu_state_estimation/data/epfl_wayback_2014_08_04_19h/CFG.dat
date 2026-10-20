@@ -1,0 +1,393 @@
+[license] Permission is granted to copy, distribute this document according to the terms in Creative
+[license] CommonsLicense, Attribution-NoDerivs 3.0. The full text of this license may be found here: CC by-nd 3.0
+[licence_legalcode_url]  https://creativecommons.org/licenses/by-nd/3.0/legalcode
+[timestamp]	1408023637.565
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1408112242.615
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1408116349.544
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1408116480.094
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1408255995.100
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	VI	VI	VI	VI
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1408363606.980
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	VI	VI	VI	VI
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1408363730.991
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	VI	VI	VI	VI
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1408363865.166
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	VI	VI	VI	VI
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1408364266.667
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	VI	VI	VI	VI
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1410785343.409
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1412437915.766
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1412439389.672
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1412605825.039
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1412607616.937
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	VI	VI	VI	VI
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1412609780.003
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	VI	VI	VI	VI
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1412861373.791
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1412861823.900
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	VI	VI	VI	VI
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1412861937.657
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	VI	VI	VI	VI
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1412862202.799
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1415886318.947
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1415967453.609
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1416577497.142
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1417099395.857
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1418289611.697
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1418289750.234
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000
+[timestamp]	1418290501.669
+	[base_voltage]	11547.0054
+	[topology]
+		[node_names]	PC-2	EL-A	EL-E	EL-G	EL-L
+		[node_numbers]	1	2	3	4	5
+		[PMU_location]	1	1	1	1	1
+		[PMU_ID]	2	3	4	5	6
+		[SE_input]	VI	I	I	I	I
+		[incidence_matrix 1ph]	10001	01100	00110	00011
+		[line_names]	line15	line23	line34	line45
+		[line_lengths-km]	0.46032	0.03472	0.07168	0.07280
+		[line_type]	EPFL_cable for line15 line23 line34 line45
+			[line R-ohm/km]	0.159000,0.000000,0.000000;0.000000,0.159000,0.000000;0.000000,0.000000,0.159000
+			[line X-ohm/km]	0.113000,0.000000,0.000000;0.000000,0.113000,0.000000;0.000000,0.000000,0.113000
+			[line B-uS/km]	130.000000,0.000000,0.000000;0.000000,130.000000,0.000000;0.000000,0.000000,130.000000

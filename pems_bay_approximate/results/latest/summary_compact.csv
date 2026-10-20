@@ -1,0 +1,5 @@
+Method,Test RMSE,Bytes
+Local,5.941 ± 0.875,0
+FedAvg,5.781 ± 0.937,490560
+FedRep,5.681 ± 0.961,456960
+AdaptiveMsg-NSMP,5.406 ± 0.703,9568

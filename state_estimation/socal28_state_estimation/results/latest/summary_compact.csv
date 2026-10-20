@@ -1,0 +1,4 @@
+Dataset,Method,Error metric,Hop rounds/iterations,Bytes
+SoCal,NSMP,8.09e-09,8,9064
+SoCal,ADMM,4.65e-04,2000,6528000
+SoCal,Gossip,7.09e-01,5000,21120000

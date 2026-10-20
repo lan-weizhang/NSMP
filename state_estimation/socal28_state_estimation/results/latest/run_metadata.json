@@ -1,0 +1,21 @@
+{
+  "dataset": "SoCal 28-Bus public real synchrophasor sample",
+  "source": "https://github.com/caltech-netlab/digital-twin-dataset",
+  "share": "https://caltech.box.com/s/5baxy2ogbalqohpidh1lyxgnnxmv5tuc",
+  "time_window": [
+    "2024-11-14T07:00:00",
+    "2024-11-14T07:05:00"
+  ],
+  "snapshots_used": 3,
+  "official_subproblem": "A-side bus-injection V-I state estimation",
+  "electrical_nodes_after_official_aggregation_and_pruning": 12,
+  "three_phase_complex_state_dimension": 72,
+  "meter_sites": 6,
+  "zero_injection_nodes": 6,
+  "routing_edges": 11,
+  "admm_rounds": 2000,
+  "admm_rho_requested": 0.0,
+  "gossip_rounds": 5000,
+  "gossip_learning_factor": 0.05,
+  "important_scope_note": "SoCal 28-Bus is the dataset name. The official public phasor notebook solves one A-side connected component, which reduces to 12 electrical nodes (72 real voltage coordinates), not a literal 28-node estimator."
+}

@@ -1,0 +1,54 @@
+{
+  "num_buses": 5,
+  "phases": 3,
+  "pmu_bus_map": {
+    "2": 0,
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 4
+  },
+  "reference_voltage_buses": [
+    0
+  ],
+  "communication_edges": [
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "nsmp_root": 3,
+  "voltage_sigma_pu": 0.005,
+  "current_sigma_pu": 0.1,
+  "base_line_line_voltage_v": 20000.000028072187,
+  "base_power_va": 1000000.0,
+  "voltage_scale_to_volts": 1.0,
+  "current_scale_to_amps": 1.0,
+  "current_sign_by_pmu": {
+    "2": 1.0,
+    "3": -1.0,
+    "4": -1.0,
+    "5": -1.0,
+    "6": -1.0
+  },
+  "node_names": [
+    "PC-2",
+    "EL-A",
+    "EL-E",
+    "EL-G",
+    "EL-L"
+  ],
+  "source_cfg": "data/epfl_wayback_2014_08_04_19h/CFG.dat"
+}

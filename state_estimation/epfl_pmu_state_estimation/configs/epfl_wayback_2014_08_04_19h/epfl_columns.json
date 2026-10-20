@@ -1,0 +1,25 @@
+{
+  "timestamp": "timestamp",
+  "timestamp_unit": "s",
+  "angle_unit": "radian",
+  "voltage_magnitude": [
+    "phaseA.voltage.magnitude",
+    "phaseB.voltage.magnitude",
+    "phaseC.voltage.magnitude"
+  ],
+  "voltage_angle": [
+    "phaseA.voltage.angle",
+    "phaseB.voltage.angle",
+    "phaseC.voltage.angle"
+  ],
+  "current_magnitude": [
+    "phaseA.current.magnitude",
+    "phaseB.current.magnitude",
+    "phaseC.current.magnitude"
+  ],
+  "current_angle": [
+    "phaseA.current.angle",
+    "phaseB.current.angle",
+    "phaseC.current.angle"
+  ]
+}

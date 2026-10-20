@@ -1,0 +1,159 @@
+{
+  "runs": [
+    {
+      "seed": 20260728,
+      "configuration": {
+        "experiment": {
+          "num_sensors": 30,
+          "num_clients": 6,
+          "lags": 12,
+          "hidden_dim": 4,
+          "train_windows": 128,
+          "val_windows": 240,
+          "test_windows": 480,
+          "rounds": 140,
+          "batch_size": 128,
+          "learning_rate": 0.003,
+          "weight_decay": 1e-05,
+          "seed": 20260728
+        },
+        "approximate_message": {
+          "interface_dim": 2,
+          "interface_radius": 1.0,
+          "message_hidden": 32,
+          "message_samples": 48,
+          "validation_samples": 16,
+          "holdout_samples": 16,
+          "inner_steps": 35,
+          "recovery_steps": 120,
+          "root_steps": 120,
+          "multi_starts": 2,
+          "message_epochs": 600,
+          "inner_learning_rate": 0.01,
+          "message_learning_rate": 0.01,
+          "pretrain_epochs": 20,
+          "private_regularization": 1e-05,
+          "interface_regularization": 0.01,
+          "selection_tolerance_fraction": 0.1
+        },
+        "device": "cuda",
+        "torch_version": "2.3.1",
+        "tree_edges": 5,
+        "dataset_name": "PEMS-BAY",
+        "speed_data": "data/pems_bay/pems-bay.h5",
+        "adjacency_data": "data/pems_bay/adj_mx_bay.pkl",
+        "method_note": "AdaptiveMsg-NSMP follows the paper procedure: sampled interfaces, multi-start gradient-based approximate partial minimization, node-specific message regression, validation-based selection among constant/linear/quadratic/MLP representations, root minimization, and downward recovery.",
+        "communication_note": "Float32 payload only. AdaptiveMsg-NSMP counts one upward transmission of each selected message state and one downward interface vector per tree edge.",
+        "private_recovery_note": "After the downward pass fixes all interfaces, each client's private model is re-optimized from the local-pretraining state for recovery_steps updates; the checkpoint is selected using only that client's validation data."
+      }
+    },
+    {
+      "seed": 20260729,
+      "configuration": {
+        "experiment": {
+          "num_sensors": 30,
+          "num_clients": 6,
+          "lags": 12,
+          "hidden_dim": 4,
+          "train_windows": 128,
+          "val_windows": 240,
+          "test_windows": 480,
+          "rounds": 140,
+          "batch_size": 128,
+          "learning_rate": 0.003,
+          "weight_decay": 1e-05,
+          "seed": 20260729
+        },
+        "approximate_message": {
+          "interface_dim": 2,
+          "interface_radius": 1.0,
+          "message_hidden": 32,
+          "message_samples": 48,
+          "validation_samples": 16,
+          "holdout_samples": 16,
+          "inner_steps": 35,
+          "recovery_steps": 120,
+          "root_steps": 120,
+          "multi_starts": 2,
+          "message_epochs": 600,
+          "inner_learning_rate": 0.01,
+          "message_learning_rate": 0.01,
+          "pretrain_epochs": 20,
+          "private_regularization": 1e-05,
+          "interface_regularization": 0.01,
+          "selection_tolerance_fraction": 0.1
+        },
+        "device": "cuda",
+        "torch_version": "2.3.1",
+        "tree_edges": 5,
+        "dataset_name": "PEMS-BAY",
+        "speed_data": "data/pems_bay/pems-bay.h5",
+        "adjacency_data": "data/pems_bay/adj_mx_bay.pkl",
+        "method_note": "AdaptiveMsg-NSMP follows the paper procedure: sampled interfaces, multi-start gradient-based approximate partial minimization, node-specific message regression, validation-based selection among constant/linear/quadratic/MLP representations, root minimization, and downward recovery.",
+        "communication_note": "Float32 payload only. AdaptiveMsg-NSMP counts one upward transmission of each selected message state and one downward interface vector per tree edge.",
+        "private_recovery_note": "After the downward pass fixes all interfaces, each client's private model is re-optimized from the local-pretraining state for recovery_steps updates; the checkpoint is selected using only that client's validation data."
+      }
+    },
+    {
+      "seed": 20260730,
+      "configuration": {
+        "experiment": {
+          "num_sensors": 30,
+          "num_clients": 6,
+          "lags": 12,
+          "hidden_dim": 4,
+          "train_windows": 128,
+          "val_windows": 240,
+          "test_windows": 480,
+          "rounds": 140,
+          "batch_size": 128,
+          "learning_rate": 0.003,
+          "weight_decay": 1e-05,
+          "seed": 20260730
+        },
+        "approximate_message": {
+          "interface_dim": 2,
+          "interface_radius": 1.0,
+          "message_hidden": 32,
+          "message_samples": 48,
+          "validation_samples": 16,
+          "holdout_samples": 16,
+          "inner_steps": 35,
+          "recovery_steps": 120,
+          "root_steps": 120,
+          "multi_starts": 2,
+          "message_epochs": 600,
+          "inner_learning_rate": 0.01,
+          "message_learning_rate": 0.01,
+          "pretrain_epochs": 20,
+          "private_regularization": 1e-05,
+          "interface_regularization": 0.01,
+          "selection_tolerance_fraction": 0.1
+        },
+        "device": "cuda",
+        "torch_version": "2.3.1",
+        "tree_edges": 5,
+        "dataset_name": "PEMS-BAY",
+        "speed_data": "data/pems_bay/pems-bay.h5",
+        "adjacency_data": "data/pems_bay/adj_mx_bay.pkl",
+        "method_note": "AdaptiveMsg-NSMP follows the paper procedure: sampled interfaces, multi-start gradient-based approximate partial minimization, node-specific message regression, validation-based selection among constant/linear/quadratic/MLP representations, root minimization, and downward recovery.",
+        "communication_note": "Float32 payload only. AdaptiveMsg-NSMP counts one upward transmission of each selected message state and one downward interface vector per tree edge.",
+        "private_recovery_note": "After the downward pass fixes all interfaces, each client's private model is re-optimized from the local-pretraining state for recovery_steps updates; the checkpoint is selected using only that client's validation data."
+      }
+    }
+  ],
+  "dataset": "PEMS-BAY",
+  "seeds": [
+    20260728,
+    20260729,
+    20260730
+  ],
+  "methods": [
+    "Local",
+    "FedAvg",
+    "FedRep",
+    "AdaptiveMsg-NSMP"
+  ],
+  "standard_deviation": "sample (ddof=1)",
+  "communication": "Float32 numerical payload, 4 bytes per value"
+}

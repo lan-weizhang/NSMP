@@ -1,0 +1,2 @@
+method,synchronousRoundsOrIterations,messages,communicatedScalars,communicatedBytesFloat64,relativeObjectiveGap,relativeParameterError,relativePrimalResidual,primalResidual,primalTolerance,dualResidual,dualTolerance
+ADMM,30,300,300,2400,1.26134930753683e-16,1.69247268508808e-09,2.61260405842665e-09,7.30608485684459e-09,5.95875377880552e-08,8.80008049377429e-07,1.63135335736615e-06
